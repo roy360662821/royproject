@@ -1,0 +1,44 @@
+/*主页面样式*/
+*{padding: 0; margin: 0;font-family: "arial narrow";}
+html,body{width: 100%; height: 100%; min-width: 1280px;}
+.index_body{width: 100%; height: 100%; clear: both;}
+.index_top_menu{width: 100%; height: 50px; background-color: #25313e;}
+.index_top_menu_logo{width: 220px; height: 50px; float: left; line-height: 50px; text-align: center; font-family: "arial narrow"; font-size: 28px; color: #adbece;}
+.section_left_menu{width: 220px; height: calc(100% - 50px); height: -webkit-calc(100% - 50px); background-color: #41586e; float: left;}
+.section_right_body{ float:left;width: -webkit-calc(100% - 220px); width: calc(100% - 220px); height: calc(100% - 50px); height: -webkit-calc(100% - 50px); background-color: ghostwhite;}
+.switch_project_div{width:100%; height: 50px; background-color: #89cc97;}
+.left_menu_child_menu{width: 220px; height: 45px; line-height: 45px; border-bottom: 1px solid rgba(157,177,197,0.2); cursor: pointer;color:#9db1c5;}
+.child_menu_icon{width: 45px; height: 45px; float: left;}
+.child_menu_text{width: 174px; height: 45px; font-size: 16px; float: left;font-family: "arial narrow"; font-weight: bold; text-indent: 1em; border-left: 1px solid rgba(157,177,197,0.2); }
+.icon_hover_bg_color{width: 1px; height: 43px; margin-top: 1px;}
+.icon_hover_bg_color i{margin-left: 15px; color: white;}
+.left_menu_child_menu:hover{color: white;background-color: #2e3e4e;}
+.left_menu_child_menu:hover .icon_hover_bg_color{width: 44px; transition: width 0.3s;}
+.index_footer{width: 220px; height: 50px; background-color: #374b5e; position: absolute;bottom: 0;}
+.select_control{clear:both;width: 150px; height: 30px; margin-top: 10px; margin-left: 50px;border-radius: 5px; position:fixed;cursor: pointer;}
+.puls_btn{width: 30px; height: 30px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color: #2e3e4e;float: left;}
+.select_text{width: 120px; height: 30px; float: left; background-color: #65bd77;font-family: "arial narrow";border-top-right-radius: 5px; border-bottom-right-radius: 5px; color: white; font-size: 13px; font-weight: bold; text-align: center;line-height: 30px;}
+.select_control:hover .puls_btn{background-color: #26313E;}
+.select_control:hover .select_text{background-color: #65BD80; color: whitesmoke;}
+.icon-plus{margin-left: 7px; margin-top: 7px;position: fixed; color: white;}
+.index_top_login_info{width: 200px; height: 50px; float: left;}
+.index_top_menu_div{width:calc(100% - 420px) ; height: 50px; float: left;font-family: "arial narrow";}
+.index_top_menu_div div{width: 100px; height: 50px;background-color: #41586E;float: left; line-height: 50px; color: white; text-align: center;cursor: pointer; font-weight: bold;}
+.index_top_menu_div div:hover{background-color: #1C2630; transition: background-color 1s ease-in;}
+.user_name{width: 120px; height: 50px; line-height: 50px; text-align: center; font-size: 16px; color: white;font-family: "arial narrow"; float: left;}
+.head_photo{width: 42px; height: 42px; margin-top: 4px; float: left; margin-left: 10px; border-radius: 21px; background-image: url(../img/head_yao.jpg); cursor: pointer;}
+.selection_data_list{width: 120px; background-color: white; border-color:gray; color: gray; position: absolute; top: 35px; box-shadow: 3px 3px 3px; display: none;}
+.selection_data_list div{width: 120px; height: 30px; line-height: 30px; text-align: center;border-bottom: 1px dotted rgba(0,0,0,0.1);}
+.selection_data_list div:hover{background-color: lightgray;}
+.footer_link{width:120px; margin-left: 50px; margin-top: 15px; height: 20px; font-size: 20px;}
+a{text-decoration: none;}
+.footer_link a{color: #26313E; text-decoration: none;}
+.footer_link div{width: 20px; height: 20px; float: left;}
+.footer_link a:hover{color: #1C2630;}
+/*左侧二级子菜单*/
+.left_menu_next_menu{width: 220px; background-color: #26313E; display: none;}
+.next_menu_child_list{width: 100%; height: 45px; line-height: 45px; border-bottom: 1px solid rgba(157,177,197,0.2);color: white;font-size: 14px; cursor: pointer;}
+.next_child_menu_icon{width: 45px; height: 45px; text-align: center; line-height: 45px; float: left;border-right: 1px solid rgba(157,177,197,0.2);}
+.next_child_menu_text{width: 174px; height: 45px; text-align: center; line-height: 45px; font-weight: bold;}
+.next_menu_child_list_bg{width: 1px; height: 44px;}
+.next_menu_child_list:hover .next_menu_child_list_bg{width: 220px; transition: width 1s;}
