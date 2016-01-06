@@ -231,14 +231,20 @@
 						<a href=""><i class="icon-home2"></i> Home </a>
 					</div>
 					<div class="index_content">
-						<div class="index_content_left"></div>
+						<div class="index_content_left">
+							<!--5.导入容器用于显示图表-->
+							<form id="form1" runat="server"> 
+							    <div id="container" style="width: 900px;">
+							    </div> 
+						 	</form>
+						</div>
 						<div class="index_content_right">
 							<div class="index_calender">
 								<div class="index_calender_title">Calender</div>
 								<div class="index_calender_last_year">
 									<i class="icon-backward2"></i>
 								</div>
-								<div class="index_calender_select_year_month">December 2015</div>
+								<div class="index_calender_select_year_month">January 2016</div>
 								<div class="index_calender_next_year">
 									<i class="icon-forward3"></i>
 								</div>
@@ -251,22 +257,23 @@
 								<div class="index_calender_six_item">S</div>
 								<div id="calender_item_list"></div>
 							</div>
+							<div class="index_task_div">
+								<div class="task_item_div"></div>
+								<div class="task_item_div"></div>
+								<div class="task_item_div"></div>
+								<div class="task_item_div"></div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<!--首页内容 结束-->
-				<!--<form id="form1" runat="server"> 
-				    5.导入容器用于显示图表
-				    <div id="container" style="width: 900px;">
-				    </div> 
-			 	</form>-->
 			</section>
 			<!--Part of the right content  End-->
 		</section>
 		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
 		<script src="js/calender.js"></script>
 		<script type="text/javascript" src="js/index.js" ></script>
-		<!--<script type="text/javascript" src="js/highcharts-custom.js" ></script>
-		<script type="text/javascript" src="js/charts.js" ></script>-->
+		<script type="text/javascript" src="js/highcharts-custom.js" ></script>
+		<script type="text/javascript" src="js/charts.js" ></script>
 	</body>
 </html>

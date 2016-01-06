@@ -6,7 +6,7 @@ function initIndexCalender(){
 	var nowMonth=nowDate.getMonth();//当前月份
 	var nowYear=nowDate.getYear();  //当前年份
 	//判断当月一号星期几
-	var weekDayOne=7-(7%nowDay)+1;
+	var weekDayOne=nowDay%7-1;
 	var monthDays=getMonthDays(nowYear,nowMonth+1);
 	document.getElementById("calender_item_list").innerHTML="";
 	for(var i=1;i<=(weekDayOne+monthDays);i++){

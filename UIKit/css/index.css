@@ -2,8 +2,8 @@
 .navigation{width: 100%;height: 30px;line-height: 30px; border-bottom: 1px solid rgba(0,0,0,0.1); background-color: white; font-size: 14px;}
 .navigation a{color:gray; margin-left: 20px;}
 .index_content{width: 100%; margin-top: 20px; height: 500px;}
-.index_content_left{width: 710px; height: 500px; margin-left: 30px; float: left;}
-.index_content_right{width: calc(100% - 800px); width: -webkit-calc(100% -800px); height: 500px; margin-left: 30px; float: left;}
+.index_content_left{width: 70%; height: 500px; margin-left: 30px; float: left;}
+.index_content_right{width: calc(30% - 90px); width: -webkit-calc(30% - 90px); height: 500px; margin-left: 30px; float: left;}
 .index_calender{width: 100%; height: 400px; text-align: center;color: white;}
 .index_calender_title{width: 100%; height: 40px; line-height: 40px; background-color: #48a75b; text-indent: 1em; border-top-left-radius: 5px; border-top-right-radius: 5px;}
 .index_calender_last_year{width: 14.3%; height: 40px; line-height: 40px; float: left; background-color: #65bd77;cursor: pointer;}
@@ -12,3 +12,5 @@
 .index_calender_normal_item{width: 14.3%; height: 40px; float: left; background-color: #65bd77; line-height: 40px;}
 .index_calender_six_item{width: 14.2%; height: 40px; float: left; background-color: #65bd77; line-height: 40px;}
 #calender_item_list{width: 100%; height: auto;}
+.index_task_div{width: 100%; height: auto;}
+.task_item_div{width: 100%; height: 80px; background-color: gainsboro; margin-top: 20px;}
