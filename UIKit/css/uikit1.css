@@ -5,3 +5,4 @@
 .uikit_content_title{width: 100%; height: 40px; line-height: 40px; background-color: rgba(0,0,0,0.05); font-size: 14px; text-indent: 1em;text-align: left;}
 .form_title{width: 90%; height: 40px; line-height: 40px; text-align: left; color:gray}
 .form_control{width: 90%; height: 40px;}
+.form_btn{width: 90%; height: 50px;}
