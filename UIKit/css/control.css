@@ -1,8 +1,8 @@
-input[type=text]{outline:none;width: 100%; height: 35px; line-height: 35px; border: 1px solid darkgray; text-indent: 1em;}
+input[type=text]{outline:none;width: 100%; height: 35px; font-size: 16px; color: gray; line-height: 35px; border: 1px solid darkgray; text-indent: 1em;}
 input[type=text]:focus{border-color: lightgreen;}
-input[type=password]{outline:none;width: 100%; height: 35px; line-height: 35px; border: 1px solid darkgray; text-indent: 1em;}
+input[type=password]{outline:none;width: 100%; height: 35px; font-size: 16px; color: gray; line-height: 35px; border: 1px solid darkgray; text-indent: 1em;}
 input[type=password]:focus{border-color: lightgreen;}
-input[type=submit]{outline:none;border:none;width: 100px; height: 40px; margin-top: 10px; color:white; cursor: pointer; background-color: #89cc97; font-size: 16px; font-family: "微软雅黑";}
+input[type=submit]{outline:none;border:none;width: 100px; height: 40px; margin-top: 20px; color:white; cursor: pointer; background-color: #89cc97; font-size: 16px; font-family: "微软雅黑";}
 input[type=submit]:hover{background-color: #65BD80; font-size: 18px;}
-input[type=reset]{outline:none;border:none;width: 100px; height: 40px; margin-top: 10px; color:white; cursor: pointer; font-size: 16px; font-family: "微软雅黑";}
+input[type=reset]{outline:none;border:none;width: 100px; height: 40px; margin-top: 20px; color:white; cursor: pointer; font-size: 16px; font-family: "微软雅黑";}
 input[type=reset]:hover{background-color: darkgray; font-size: 18px;}
