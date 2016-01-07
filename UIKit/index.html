@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 	<head>
 		<meta charset="utf-8" />
 		<title> UI Kit</title>
 		<link rel="stylesheet" href="css/base.css" />
-		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/angular/angular.min.js" ></script>
+		<script type="text/javascript" src="js/angular/angular-ui-router.js"></script>
+		<script type="text/javascript" src="js/anjularjs-router-config.js" ></script>
 	</head>
 	<body>
 		<section class="index_body">
@@ -47,7 +49,7 @@
 					<div class="child_menu_text">Workset</div>
 				</div>
 				<div class="left_menu_next_menu">
-					<div class="next_menu_child_list">
+					<div class="next_menu_child_list" ui-sref="state1">
 						<div class="next_menu_child_list_bg" style="background-color: lightskyblue;">
 							<div class="next_child_menu_icon">
 								<i class="icon-paragraph-right"></i>
@@ -55,7 +57,7 @@
 							<div class="next_child_menu_text">Workset1</div>
 						</div>
 					</div>
-					<div class="next_menu_child_list">
+					<div class="next_menu_child_list" ui-sref="state2">
 						<div class="next_menu_child_list_bg" style="background-color: lightskyblue;">
 							<div class="next_child_menu_icon">
 								<i class="icon-indent-increase"></i>
@@ -120,7 +122,7 @@
 							<div class="next_child_menu_icon">
 								<i class="icon-aid-kit"></i>
 							</div>
-							<div class="next_child_menu_text">UI Kits1</div>
+							<div class="next_child_menu_text" ui-sref="uikit1">UI Kits1</div>
 						</div>
 					</div>
 					<div class="next_menu_child_list">
@@ -224,56 +226,13 @@
 			</section>
 			<!--Part of the left menu  End-->
 			<!--Part of the right content  Begin-->
-			<section class="section_right_body">
-				<!--首页内容 开始-->
-				<div class="index_html">
-					<div class="navigation">
-						<a href=""><i class="icon-home2"></i> Home </a>
-					</div>
-					<div class="index_content">
-						<div class="index_content_left">
-							<!--5.导入容器用于显示图表-->
-							<form id="form1" runat="server"> 
-							    <div id="container" style="width: 900px;">
-							    </div> 
-						 	</form>
-						</div>
-						<div class="index_content_right">
-							<div class="index_calender">
-								<div class="index_calender_title">Calender</div>
-								<div class="index_calender_last_year">
-									<i class="icon-backward2"></i>
-								</div>
-								<div class="index_calender_select_year_month">January 2016</div>
-								<div class="index_calender_next_year">
-									<i class="icon-forward3"></i>
-								</div>
-								<div class="index_calender_normal_item">S</div>
-								<div class="index_calender_normal_item">M</div>
-								<div class="index_calender_normal_item">T</div>
-								<div class="index_calender_normal_item">W</div>
-								<div class="index_calender_normal_item">T</div>
-								<div class="index_calender_normal_item">F</div>
-								<div class="index_calender_six_item">S</div>
-								<div id="calender_item_list"></div>
-							</div>
-							<div class="index_task_div">
-								<div class="task_item_div"></div>
-								<div class="task_item_div"></div>
-								<div class="task_item_div"></div>
-								<div class="task_item_div"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--首页内容 结束-->
+			<section class="section_right_body" ui-view>
+				
 			</section>
 			<!--Part of the right content  End-->
 		</section>
 		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
-		<script src="js/calender.js"></script>
 		<script type="text/javascript" src="js/index.js" ></script>
-		<script type="text/javascript" src="js/highcharts-custom.js" ></script>
-		<script type="text/javascript" src="js/charts.js" ></script>
+		
 	</body>
 </html>
