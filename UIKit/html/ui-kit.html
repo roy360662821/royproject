@@ -1,31 +1,75 @@
-<div class="uikit_title">
-	Element
-</div>
-<div class="uikit_column">
-	<div class="uikit_left" align="center">
-		<form method="post">
-			<div class="uikit_content_title">Basic Form</div>
-			<div class="form_title">User Name:</div>
-			<div class="form_control">
-				<input type="text" placeholder="Please Enter User Name!">
-			</div>
-			<div class="form_title">Password:</div>
-			<div class="form_control">
-				<input type="password" placeholder="Please Enter Password!">
-			</div>
-			<div class="form_btn" align="left">
-				<input type="submit" />
-				<input type="reset" />
-			</div>
-		</form>
+<div class="uikit_base">
+	<div class="uikit_title">
+		Element
 	</div>
-	<div class="uikit_right">
-		
+	<div class="uikit_column" ng-controller="uikit">
+		<div class="uikit_left" align="center">
+			<form method="post">
+				<div class="uikit_content_title">Basic Form</div>
+				<div class="form_title">User Name:</div>
+				<div class="form_control">
+					<input type="text" ng-model="firstName" placeholder="Please Enter User Name!">
+				</div>
+				<div class="form_title">Password:</div>
+				<div class="form_control">
+					<input type="password" placeholder="Please Enter Password!">
+				</div>
+				<div class="form_btn" align="left">
+					<input type="submit" />
+					<input type="reset" />
+				</div>
+			</form>
+		</div>
+		<div class="uikit_right" align="center">
+			<form method="post">
+				<div class="uikit_content_title">Muliti Form</div>
+				<div class="form_title">City</div>
+				<div class="form_control">
+					<div class="dropdownquery">
+						<input type="text" class="dropdownquery_input" placeholder="Please select a item!"]/>
+						<div class="dropdownquery_btn">-</div>
+					</div>
+					<div class="dropdownquery_options">
+						<div>Bei Jing</div>
+						<div>Shang Hai</div>
+						<div>Tian Jin</div>
+						<div>Chong qing</div>
+					</div>
+				</div>
+				<div class="form_title">Gender:</div>
+				<div class="form_control" align="left">
+					<i class="icon-radio-checked"></i> Male 
+					<i class="icon-radio-unchecked"></i> Female
+				</div>
+				<div class="form_btn" align="left">
+					<input type="submit" />
+					<input type="reset" />
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="uikit_column">
+		<div class="sli">
+			<div class="bg_one"></div>
+			<div class="bg_two"></div>
+			<div class="bg_three"></div>
+			<div class="bg_four"></div>
+		</div>
+		<div class="sli_btn">
+			<div class="sli_btn_last"><</div>
+			<div class="sli_btn_next">></div>
+		</div>
+		<div class="sli_btn_circle" align="center">
+			<div class="sli_btn_circle_base">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
 	</div>
 </div>
-<div>
-	
-</div>
+
 
 
 

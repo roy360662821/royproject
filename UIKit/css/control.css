@@ -6,3 +6,11 @@ input[type=submit]{outline:none;border:none;width: 100px; height: 40px; margin-t
 input[type=submit]:hover{background-color: #65BD80; font-size: 18px;}
 input[type=reset]{outline:none;border:none;width: 100px; height: 40px; margin-top: 20px; color:white; cursor: pointer; font-size: 16px; font-family: "微软雅黑";}
 input[type=reset]:hover{background-color: darkgray; font-size: 18px;}
+.dropdownquery{width: 100%; height: 35px; border: 1px solid darkgray;}
+.dropdownquery input{width: calc( 100% - 36px); width: -webkit-calc( 100% - 36px); border: 0px; float: left;}
+.dropdownquery_btn{width: 35px; border-left:1px solid gray; float: left; height: 35px; cursor: pointer;}
+.dropdownquery_options{width: 100%; height: intrinsic; font-family: "微软雅黑"; background-color: white;position: relative; color: gray; display: none;}
+.dropdownquery_options div{width: 100%; height: 40px; line-height: 40px; font-size:16px; text-align: left; text-indent: 1em; cursor: pointer;}
+.dropdownquery_options div:hover{background-color: rgba(0,0,0,0.2); color: white;}
+.icon-radio-unchecked{font-size: 14px; color: gray; cursor: pointer;}
+.icon-radio-checked{font-size: 14px; color: #65BD80; cursor: pointer;}
