@@ -6,11 +6,42 @@ input[type=submit]{outline:none;border:none;width: 100px; height: 40px; margin-t
 input[type=submit]:hover{background-color: #65BD80; font-size: 18px;}
 input[type=reset]{outline:none;border:none;width: 100px; height: 40px; margin-top: 20px; color:white; cursor: pointer; font-size: 16px; font-family: "微软雅黑";}
 input[type=reset]:hover{background-color: darkgray; font-size: 18px;}
+/*dropdown query*/
 .dropdownquery{width: 100%; height: 35px; border: 1px solid darkgray;}
 .dropdownquery input{width: calc( 100% - 36px); width: -webkit-calc( 100% - 36px); border: 0px; float: left;}
 .dropdownquery_btn{width: 35px; border-left:1px solid gray; float: left; height: 35px; cursor: pointer;}
-.dropdownquery_options{width: 100%; height: intrinsic; font-family: "微软雅黑"; background-color: white;position: relative; color: gray; display: none;}
+.dropdownquery_options{width: 100%; height: intrinsic; box-shadow: 8px 8px 8px; font-family: "微软雅黑"; background-color: white;position: relative; color: gray; display: none;}
 .dropdownquery_options div{width: 100%; height: 40px; line-height: 40px; font-size:16px; text-align: left; text-indent: 1em; cursor: pointer;}
 .dropdownquery_options div:hover{background-color: rgba(0,0,0,0.2); color: white;}
+.triangle-down{width: 0;height: 0;border-left: 6px solid transparent; margin-top:12px;border-right: 6px solid transparent;border-top: 10px solid gray;}
+/*radio btn*/
 .icon-radio-unchecked{font-size: 14px; color: gray; cursor: pointer;}
 .icon-radio-checked{font-size: 14px; color: #65BD80; cursor: pointer;}
+/*checkbox*/
+.icon-checkbox-unchecked{font-size: 14px; color: gray; cursor: pointer;}
+.icon-checkbox-checked{font-size: 14px; color: #65BD80; cursor: pointer;}
+/*calender*/
+.calender_controller{width: 100%; height: 35px; border: 1px solid darkgray;}
+.calender_controller_text{width: calc( 100% - 36px); width: -webkit-calc( 100% - 36px); height: 35px; border: 0px; float: left; text-align: left; text-indent: 1em; color: gray;}
+.calender_controller_btn{width: 35px; border-left:1px solid darkgray; float: left; height: 35px; cursor: pointer; color: gray;text-align: center;}
+.calender_controller_btn:hover{background-color: rgba(0,0,0,0.1);}
+.calender_controller_panel{width: 240px;height: intrinsic;position: relative;box-shadow: 8px 8px 16px gray; font-family: "微软雅黑"; display: none;}
+.calender_controller_panel_head{width: 100%; height: 4px; background-color: lightcoral;}
+.calender_controller_panel_month_year_choice{width: 100%; height: 40px; background-color: white;color: gray;}
+.calender_controller_last_month{width: 20px; height: 40px; float: left; cursor: pointer;}
+.calender_controller_month_year{width: calc(100% - 40px); width: -webkit-calc(100% 40px); height: 40px; text-align: center; float: left;}
+.calender_controller_next_month{width: 20px; height: 40px; float: left; cursor: pointer;}
+.triangle-left{width: 0;height: 0;border-top: 5px solid transparent;border-right: 10px solid gray;border-bottom: 5px solid transparent; margin-top: 14px;}
+.triangle-left:hover{border-right-color: lightcoral;}
+.triangle-right{width: 0;height: 0;border-top: 5px solid transparent;border-left: 10px solid gray;border-bottom: 5px solid transparent; margin-top: 14px; margin-right: 10px;}
+.triangle-right:hover{border-left-color: lightcoral;}
+.calender_controller_month{width: 100%; height: 25px; line-height: 25px; }
+.calender_controller_year{width: 100%; height: 15px; line-height: 15px; font-size: 12px;}
+.calender_controller_date_panel{min-height: 220px; width: 100%; background-color: whitesmoke;text-align: center;}
+.calender_controller_week{width: 210px; height: 30px; color: lightcoral; margin-left: 15px;}
+.calender_controller_week div{width: 30px; font-size: 1px; line-height: 30px;float: left;}
+.calender_controller_days_panel{width: 210px; margin-left: 15px;line-height: 30px; color:gray;border-top:1px solid lightgray; border-left: 1px solid lightgray;}
+.calender_controller_days_panel div{width: 29px; height: 29px;  border-right:1px solid lightgray ;border-bottom:1px solid lightgray ;float: left;}
+.calender_controller_days{background-color: white;cursor: pointer;}
+.calender_controller_nowday{background-color: lightcoral; color: white;}
+.calender_controller_days:hover{background-color: lightcoral; color: white;}
